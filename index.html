@@ -9,8 +9,6 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="bg-gray-50 text-gray-800 font-['Roboto']">
-    <!-- Debug Marker to Confirm Update -->
-    <div style="position: fixed; top: 10px; right: 10px; background: red; color: white; padding: 10px; z-index: 9999; font-weight: bold;">DEBUG: NEW DESIGN v9 - Schedule Updated from Mindbody</div>
     <!-- Navigation Bar with Yogi Symbol -->
             <nav class="text-white sticky top-0 z-50 shadow-md" style="background: linear-gradient(to right, #1a3a2e, #3b7d5a); display: block !important;">
         <div class="container mx-auto px-4 md:px-6 flex justify-between items-center py-4" style="display: flex !important;">
@@ -374,4 +372,14 @@
 
 
 </body>
+<footer class="bg-green-800 text-white py-4 mt-12">
+    <div class="container mx-auto px-4 md:px-6 text-center text-sm">
+        <p>&copy; 2026 Holly's Yoga Journey. All rights reserved.</p>
+        <p>Last updated: <span id="last-modified">March 15, 2026 11:50 AM EDT</span></p>
+        <script>
+            // Update last modified date dynamically based on document.lastModified or file system if possible
+            document.getElementById('last-modified').textContent = new Date(document.lastModified).toLocaleString('en-US', { timeZone: 'America/New_York' });
+        </script>
+    </div>
+</footer>
 </html>
