@@ -290,7 +290,6 @@
     <footer class="bg-green-800 text-white py-8" style="background: linear-gradient(to bottom, #2d3748, #1a202c);">
         <div class="container mx-auto text-center">
             <p>&copy; 2026 Holly's Yoga Journey | Westport, CT</p>
-            <p class="mt-2">Contact: holly@yogajourney.com | (555) 123-4567</p>
         </div>
     </footer>
     
@@ -351,14 +350,28 @@
             });
         }
 
-        // Log to console if page load is stuck (for debugging)
+        // Force page load to complete even if resources are stuck
         setTimeout(function() {
             if (document.readyState !== 'complete') {
-                console.log('Page load seems stuck. Check for slow resources or JS errors.');
+                console.log('Page load forced to complete after timeout. Check for slow resources or JS errors.');
+                window.dispatchEvent(new Event('load'));
+            } else {
+                console.log('Page load completed naturally.');
             }
-        }, 10000); // Check after 10 seconds
+        }, 8000); // Force load event after 8 seconds
+
+        // Limit image onerror retries to prevent endless loading
+        var images = document.getElementsByTagName('img');
+        for (var i = 0; i < images.length; i++) {
+            images[i].setAttribute('data-retry-count', '0');
+            var originalOnError = images[i].getAttribute('onerror');
+            if (originalOnError) {
+                images[i].setAttribute('onerror', 'if (parseInt(this.getAttribute("data-retry-count")) < 1) { this.setAttribute("data-retry-count", parseInt(this.getAttribute("data-retry-count")) + 1); ' + originalOnError + ' } else { console.log("Image load failed after retry: " + this.src); }');
+            }
+        }
     });
 </script>
+
 
 </body>
 </html>
