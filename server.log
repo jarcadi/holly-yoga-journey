@@ -1,0 +1,423 @@
+127.0.0.1 - - [01/Mar/2026 07:42:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 07:42:23] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 07:42:23] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 07:42:23] "GET /images/img-1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 07:42:23] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 07:42:23] "GET /images/img-2.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 07:42:23] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 07:42:23] "GET /images/img-3.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 07:42:23] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 07:42:23] "GET /images/img-4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 07:42:23] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 07:42:23] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 07:42:23] "GET /images/img-5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 07:42:23] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 07:42:23] "GET /images/img-1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 07:42:23] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 07:42:23] "GET /images/hero.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 07:42:23] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 07:42:23] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 07:42:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 07:42:44] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 07:42:44] "GET /images/img-2.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 07:42:44] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 07:42:44] "GET /images/img-1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 07:42:44] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 07:42:44] "GET /images/img-3.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 07:42:44] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 07:42:44] "GET /images/img-4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 07:42:44] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 07:42:44] "GET /images/img-5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 07:42:44] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 07:42:44] "GET /images/img-1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 07:42:44] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 07:42:44] "GET /images/hero.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:05:49] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [01/Mar/2026 08:05:49] "GET /styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [01/Mar/2026 08:05:49] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:05:49] "GET /images/img-1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:05:49] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:05:49] "GET /images/img-2.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:05:49] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:05:49] "GET /images/img-3.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:05:49] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:05:49] "GET /images/img-4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:05:49] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:05:49] "GET /images/img-5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:05:49] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [01/Mar/2026 08:05:49] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:05:49] "GET /images/img-1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:05:49] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:05:49] "GET /images/hero.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:05:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:05:59] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:05:59] "GET /images/img-1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:05:59] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:05:59] "GET /images/img-2.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:05:59] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:05:59] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:05:59] "GET /images/img-3.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:05:59] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:05:59] "GET /images/img-4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:05:59] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:05:59] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:05:59] "GET /images/img-5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:05:59] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:05:59] "GET /images/img-1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:05:59] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:05:59] "GET /images/hero.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:05:59] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:05:59] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:01] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [01/Mar/2026 08:06:01] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:01] "GET /images/img-1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:01] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:01] "GET /images/img-2.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:01] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:01] "GET /images/img-3.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:01] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:01] "GET /images/img-4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:01] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:01] "GET /images/img-5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:01] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:01] "GET /images/img-1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:01] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:01] "GET /images/hero.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:06:32] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:32] "GET /images/img-1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:32] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:06:32] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:32] "GET /images/img-2.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:32] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:32] "GET /images/img-3.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:32] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:32] "GET /images/img-4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:32] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:06:32] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:32] "GET /images/img-5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:32] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:32] "GET /images/img-1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:32] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:32] "GET /images/hero.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:38] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:38] "GET /images/img-1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:38] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:38] "GET /images/img-2.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:38] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:38] "GET /images/img-4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:38] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:38] "GET /images/img-3.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:38] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:38] "GET /images/img-5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:38] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:38] "GET /images/img-1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:38] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:38] "GET /images/hero.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:06:47] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:47] "GET /images/holly1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:47] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:47] "GET /images/holly2.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:47] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:47] "GET /images/holly3.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:47] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:47] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:47] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:47] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:47] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:47] "GET /images/holly-hero.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:06:47] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:06:47] "GET /images/holly1.jpg HTTP/1.1" 404 -
+Killed all existing server processes at Sun Mar  1 08:07:02 AM EST 2026
+Starting server in /home/jarcadi/.openclaw/workspace/yoga-site on port 8899 at Sun Mar  1 08:07:02 AM EST 2026
+127.0.0.1 - - [01/Mar/2026 08:07:05] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [01/Mar/2026 08:07:05] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:05] "GET /images/holly1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:07:05] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:05] "GET /images/holly3.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:07:05] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:05] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:07:05] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:05] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:07:05] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:05] "GET /images/holly2.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:07:06] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:06] "GET /images/holly-hero.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:07:07] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [01/Mar/2026 08:07:07] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:07] "GET /images/holly1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:07:07] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:07] "GET /images/holly2.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:07:07] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:07] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:07:07] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:07] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:07:07] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:07] "GET /images/holly3.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:07:07] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:07] "GET /images/holly-hero.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:07:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:07:10] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:07:10] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:10] "GET /images/holly1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:07:10] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:10] "GET /images/holly2.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:07:10] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:10] "GET /images/holly3.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:07:10] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:10] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:07:10] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:07:10] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:10] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:07:10] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:10] "GET /images/holly1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:07:10] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:10] "GET /images/holly-hero.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:07:11] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:11] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:07:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:07:54] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:07:54] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:54] "GET /images/holly1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:07:54] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:54] "GET /images/holly2.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:07:54] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:54] "GET /images/holly3.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:07:54] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:54] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:07:54] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:07:54] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:54] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:07:54] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:54] "GET /images/holly1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:07:54] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:54] "GET /images/holly-hero.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:07:54] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:07:54] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:09:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:09:12] "GET /images/Holly%20Bio%20Photo.png HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:09:12] "GET /images/holly%20arm%20balance.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:09:12] "GET /styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [01/Mar/2026 08:09:12] "GET /images/resume%20photo.jpeg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:09:12] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:09:12] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:09:12] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:09:12] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:11:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:11:22] "GET /styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [01/Mar/2026 08:11:22] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:11:22] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:11:22] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:11:22] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:13:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:30] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:30] "GET /images/Holly%20Bio%20Photo.png HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:30] "GET /images/holly%20arm%20balance.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:30] "GET /images/resume%20photo.jpeg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:30] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:13:30] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:13:30] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:30] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:13:30] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:13:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:32] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:32] "GET /images/Holly%20Bio%20Photo.png HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:32] "GET /images/holly%20arm%20balance.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:32] "GET /images/resume%20photo.jpeg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:32] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:13:32] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:13:32] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:32] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:13:32] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:13:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:36] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:36] "GET /images/Holly%20Bio%20Photo.png HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:36] "GET /images/holly%20arm%20balance.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:36] "GET /images/resume%20photo.jpeg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:36] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:13:36] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:13:36] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:36] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:13:36] "GET /images/holly5.jpg HTTP/1.1" 404 -
+Killed all existing server processes at Sun Mar  1 08:13:48 AM EST 2026
+Starting server in /home/jarcadi/.openclaw/workspace/yoga-site on port 8899 at Sun Mar  1 08:13:48 AM EST 2026
+127.0.0.1 - - [01/Mar/2026 08:13:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:52] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:52] "GET /images/Holly%20Bio%20Photo.png HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:52] "GET /images/holly%20arm%20balance.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:52] "GET /images/resume%20photo.jpeg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:52] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:13:52] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:13:52] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:52] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:13:52] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:13:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:58] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:58] "GET /images/Holly%20Bio%20Photo.png HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:58] "GET /images/holly%20arm%20balance.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:58] "GET /images/resume%20photo.jpeg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:58] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:13:58] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:13:58] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:13:58] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:13:58] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:15:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:15:18] "GET /images/Holly%20Bio%20Photo.png HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:15:18] "GET /images/holly%20arm%20balance.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:15:18] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:15:18] "GET /images/resume%20photo.jpeg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:15:18] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:15:18] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:15:18] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:15:18] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:15:18] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:15:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:15:27] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:15:27] "GET /images/Holly%20Bio%20Photo.png HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:15:27] "GET /images/holly%20arm%20balance.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:15:27] "GET /images/resume%20photo.jpeg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:15:27] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:15:27] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:15:27] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:15:27] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:15:27] "GET /images/holly5.jpg HTTP/1.1" 404 -
+Killed all existing server processes at Sun Mar  1 08:15:32 AM EST 2026
+Starting server in /home/jarcadi/.openclaw/workspace/yoga-site on port 8899 at Sun Mar  1 08:15:32 AM EST 2026
+Killed all existing server processes at Sun Mar  1 08:15:44 AM EST 2026
+Starting server in /home/jarcadi/.openclaw/workspace/yoga-site on port 8899 at Sun Mar  1 08:15:44 AM EST 2026
+127.0.0.1 - - [01/Mar/2026 08:15:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:15:50] "GET /images/Holly%20Bio%20Photo.png HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:15:50] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:15:50] "GET /images/holly%20arm%20balance.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:15:50] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:15:50] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:15:50] "GET /images/resume%20photo.jpeg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:15:50] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:15:50] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:15:50] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:16:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:16:19] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:16:19] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:16:19] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:16:19] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:19:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:19:36] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:19:36] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:19:36] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:19:36] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:19:36] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:21:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:21:31] "GET /styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [01/Mar/2026 08:21:31] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:21:31] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:21:31] "GET /script.js HTTP/1.1" 304 -
+127.0.0.1 - - [01/Mar/2026 08:21:32] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:21:32] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:25:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:25:08] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:25:08] "GET /images/Holly%20Bio%20Photo.png HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:25:08] "GET /images/holly%20arm%20balance.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:25:08] "GET /images/resume%20photo.jpeg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:25:08] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:25:08] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:25:08] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:25:08] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:25:08] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:25:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:25:47] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:25:47] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:25:48] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:25:48] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:30:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:30:05] "GET /styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [01/Mar/2026 08:30:05] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:30:05] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:30:05] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:30:05] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:37:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:37:34] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:37:34] "GET /images/Holly%20Bio%20Photo.png HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:37:34] "GET /images/holly%20arm%20balance.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:37:34] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:37:34] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 08:37:34] "GET /images/resume%20photo.jpeg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 08:37:34] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 08:37:34] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 09:46:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 09:46:21] "GET /styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [01/Mar/2026 09:46:21] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 09:46:21] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 09:46:21] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 09:46:21] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 09:46:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 09:46:37] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 09:46:37] "GET /images/holly%20arm%20balance.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 09:46:37] "GET /images/Holly%20Bio%20Photo.png HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 09:46:37] "GET /images/resume%20photo.jpeg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 09:46:37] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 09:46:37] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 09:46:37] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 09:46:37] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 09:54:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 09:54:34] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 09:54:34] "GET /images/Holly%20Bio%20Photo.png HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 09:54:34] "GET /images/holly%20arm%20balance.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 09:54:34] "GET /images/resume%20photo.jpeg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 09:54:34] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 09:54:34] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 09:54:34] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 09:54:34] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 09:55:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 09:55:08] "GET /images/holly%20arm%20balance.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 09:55:08] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 09:55:08] "GET /images/Holly%20Bio%20Photo.png HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 09:55:08] "GET /images/resume%20photo.jpeg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 09:55:08] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 09:55:08] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 09:55:08] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 09:55:08] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 09:55:11] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [01/Mar/2026 09:55:12] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 09:55:12] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 09:55:12] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 09:55:12] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 09:58:39] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 09:58:39] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 09:58:39] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 09:58:39] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 09:58:39] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 10:01:26] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [01/Mar/2026 10:01:26] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 10:01:26] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 10:01:26] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 10:01:26] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 10:03:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 10:03:16] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 10:03:16] "GET /images/Holly%20Bio%20Photo.png HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 10:03:16] "GET /images/holly%20arm%20balance.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 10:03:16] "GET /images/resume%20photo.jpeg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Mar/2026 10:03:16] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 10:03:16] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [01/Mar/2026 10:03:16] code 404, message File not found
+127.0.0.1 - - [01/Mar/2026 10:03:16] "GET /images/holly5.jpg HTTP/1.1" 404 -
+Killed all existing server processes at Sun Mar 15 10:40:36 AM EDT 2026
+Starting server in /home/jarcadi/.openclaw/workspace/yoga-site on port 8899 at Sun Mar 15 10:40:36 AM EDT 2026
+127.0.0.1 - - [15/Mar/2026 10:40:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 10:40:51] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 10:40:51] "GET /images/Holly%20Bio%20Photo.png HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 10:40:51] "GET /images/holly%20arm%20balance.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 10:40:51] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 10:40:51] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 10:40:51] "GET /images/resume%20photo.jpeg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 10:40:51] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 10:40:51] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 10:46:53] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 10:46:53] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 10:46:53] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 10:46:53] "GET /images/holly5.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 10:48:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 10:48:05] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 10:48:05] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 10:48:05] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 10:48:05] "GET /images/holly5.jpg HTTP/1.1" 404 -

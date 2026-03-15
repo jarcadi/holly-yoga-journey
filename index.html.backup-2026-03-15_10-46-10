@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holly's Yoga Journey</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-['Roboto']">
+    <!-- Debug Marker to Confirm Update -->
+    <div style="position: fixed; top: 10px; right: 10px; background: red; color: white; padding: 10px; z-index: 9999; font-weight: bold;">DEBUG: NEW DESIGN v9 - Schedule Updated from Mindbody</div>
+    <!-- Navigation Bar with Yogi Symbol -->
+    <nav class="text-white sticky top-0 z-50 shadow-md" style="background: linear-gradient(to right, #1a3a2e, #3b7d5a);">
+        <div class="container mx-auto px-4 md:px-6 flex justify-between items-center py-4">
+            <a href="#home" class="flex items-center text-3xl font-['Playfair_Display'] font-bold" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" class="mr-2"><path d="M12 3a3 3 0 0 0 0 6 3 3 0 0 0 0-6Z"/><path d="M6 8.84a6 6 0 1 0 6 0"/><path d="m8.6 13.35-2.54 7.02a.67.67 0 0 0 .76.91l2.65-.47 2.66.47a.67.67 0 0 0 .76-.92l-2.55-7.01"/><path d="M6.14 17.5h11.7"/><path d="M12 9v4"/></svg>
+                Holly's Yoga Journey
+            </a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#home" class="text-lg hover:text-green-200 hover:underline transition-all duration-300">Home</a>
+                <a href="#about" class="text-lg hover:text-green-200 hover:underline transition-all duration-300">About</a>
+                <a href="#classes" class="text-lg hover:text-green-200 hover:underline transition-all duration-300">Classes</a>
+                <a href="#schedule" class="text-lg hover:text-green-200 hover:underline transition-all duration-300">Schedule</a>
+                <a href="#gallery" class="text-lg hover:text-green-200 hover:underline transition-all duration-300">Gallery</a>
+                <a href="#contact" class="text-lg hover:text-green-200 hover:underline transition-all duration-300">Contact</a>
+            </div>
+            <!-- Mobile Menu Button (Hamburger) -->
+            <button id="mobile-menu-btn" class="md:hidden flex items-center focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+        </div>
+        <!-- Mobile Menu (Hidden by Default) -->
+        <div id="mobile-menu" class="md:hidden hidden flex-col px-4 pb-3 space-y-3" style="background: linear-gradient(to right, #1a3a2e, #3b7d5a);">
+            <a href="#home" class="text-lg hover:text-green-200 transition-colors duration-300">Home</a>
+            <a href="#about" class="text-lg hover:text-green-200 transition-colors duration-300">About</a>
+            <a href="#classes" class="text-lg hover:text-green-200 transition-colors duration-300">Classes</a>
+            <a href="#schedule" class="text-lg hover:text-green-200 transition-colors duration-300">Schedule</a>
+            <a href="#gallery" class="text-lg hover:text-green-200 transition-colors duration-300">Gallery</a>
+            <a href="#contact" class="text-lg hover:text-green-200 transition-colors duration-300">Contact</a>
+        </div>
+    </nav>
+    
+    <!-- Hero Section with Parallax and Text Aligned to Left -->
+    <header id="home" class="hero relative h-screen md:h-[80vh] flex items-end justify-start text-left text-white overflow-hidden pb-10 md:pb-16 pl-4 md:pl-10">
+        <div class="hero-bg absolute inset-0 bg-cover bg-no-repeat z-0" style="background-image: url('images/Holly%20Bio%20Photo.png'), url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'); background-blend-mode: normal, overlay; background-position: center 30%; background-size: cover;"></div>
+        <div class="hero-overlay absolute inset-0 z-1" style="background: linear-gradient(to right, rgba(0,0,0,0.7), transparent 50%), linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6) 80%); opacity: 0.9;"></div>
+        <div class="relative z-10 p-6 rounded-lg max-w-md">
+            <h1 class="text-5xl md:text-6xl font-['Playfair_Display'] font-bold mb-4" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Welcome to Holly's Yoga Journey</h1>
+            <p class="text-lg md:text-xl mb-6" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">Find balance, strength, and peace in Westport, CT</p>
+            <a href="#classes" class="inline-block px-8 py-4 bg-green-600 hover:bg-green-700 hover:scale-105 transition-all duration-300 rounded-lg text-xl font-semibold font-['Lato'] animate-pulse-on-load">Join a Class</a>
+        </div>
+    </header>
+    
+    <!-- About Section -->
+    <section id="about" class="container mx-auto py-16 px-4 md:px-6 opacity-0 translate-y-10" data-animate>
+        <div class="flex flex-col md:flex-row items-center gap-10">
+            <div class="md:w-1/2">
+                <h2 class="text-3xl font-['Playfair_Display'] font-bold text-green-800 mb-4">About Holly</h2>
+                <p class="text-gray-700 leading-relaxed">Holly is a dedicated yoga instructor with years of experience in guiding students toward mindfulness and wellness. Specializing in vinyasa and restorative yoga, she offers personalized sessions to meet your needs. Based in Westport, CT, Holly teaches in-person at Westport Yoga Studio and online via Zoom for ultimate flexibility.</p>
+                <a href="images/Holly%20Arcadi%20Resume%202021.pdf" target="_blank" class="inline-block mt-4 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 font-['Lato']">Learn More About Holly</a>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <img src="images/Holly%20Bio%20Photo.png" alt="Holly teaching yoga" class="w-full max-w-md rounded-lg shadow-md hover:scale-105 transition-transform duration-300" onerror="this.alt='Image not found'; this.src='https://via.placeholder.com/800x600?text=Holly+Teaching+Yoga';">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Classes Section -->
+    <section id="classes" class="bg-gray-100 py-16 opacity-0 translate-y-10" data-animate>
+        <div class="container mx-auto px-4 md:px-6" style="background-image: url('https://images.unsplash.com/photo-1592432678016-e910b452f9a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80'); background-size: cover; background-opacity: 0.2;">
+            <h2 class="text-3xl font-['Playfair_Display'] font-bold text-green-800 mb-8 text-center">Classes</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+                <div class="bg-white bg-opacity-90 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <h3 class="text-xl font-['Playfair_Display'] font-semibold text-gray-800 mb-3">Vinyasa Flow</h3>
+                    <p class="text-gray-600">Dynamic sequences to build strength, flexibility, and endurance through breath-synchronized movement. Perfect for all levels seeking an energizing practice.</p>
+                </div>
+                <div class="bg-white bg-opacity-90 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <h3 class="text-xl font-['Playfair_Display'] font-semibold text-gray-800 mb-3">Restorative Yoga</h3>
+                    <p class="text-gray-600">Gentle, supportive poses using props to promote deep relaxation and stress relief. Ideal for recovery or beginners looking to unwind.</p>
+                </div>
+                <div class="bg-white bg-opacity-90 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <h3 class="text-xl font-['Playfair_Display'] font-semibold text-gray-800 mb-3">Private Sessions</h3>
+                    <p class="text-gray-600">Personalized instruction tailored to your unique needs and goals. Available in-person in Westport or online via Zoom for ultimate convenience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Schedule Section with Holly's Classes from Mindbody -->
+    <section id="schedule" class="py-16 opacity-0 translate-y-10" data-animate>
+        <div class="container mx-auto px-4 md:px-6">
+            <h2 class="text-3xl font-['Playfair_Display'] font-bold text-green-800 mb-8 text-center">Class Schedule</h2>
+            <p class="text-center text-gray-600 mb-6">View Holly's upcoming classes at Kaia Yoga locations. Schedule sourced from <a href="https://clients.mindbodyonline.com/classic/ws?studioid=2148&stype=-7&sView=week&sLoc=0&sTrn=100001042" target="_blank" class="text-green-600 hover:underline">Mindbody</a>.</p>
+            <div class="max-w-4xl mx-auto bg-white rounded-lg shadow-md p-6">
+                <h3 class="text-2xl font-['Playfair_Display'] font-bold text-green-800 mb-4">Upcoming Schedule (March 1–14, 2026)</h3>
+                <div class="overflow-x-auto mb-8">
+                    <table class="w-full text-left border-collapse">
+                        <thead>
+                            <tr class="bg-green-100 text-green-800">
+                                <th class="py-3 px-4 font-semibold">Date</th>
+                                <th class="py-3 px-4 font-semibold">Day</th>
+                                <th class="py-3 px-4 font-semibold">Time</th>
+                                <th class="py-3 px-4 font-semibold">Class Name</th>
+                                <th class="py-3 px-4 font-semibold">Location</th>
+                                <th class="py-3 px-4 font-semibold">Duration</th>
+                                <th class="py-3 px-4 font-semibold">Booking Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="border-b hover:bg-gray-50">
+                                <td class="py-3 px-4">March 1, 2026</td>
+                                <td class="py-3 px-4">Sunday</td>
+                                <td class="py-3 px-4">8:30 AM EST</td>
+                                <td class="py-3 px-4">Kaia Complete (Hot)</td>
+                                <td class="py-3 px-4">Darien</td>
+                                <td class="py-3 px-4">1 hour</td>
+                                <td class="py-3 px-4"><a href="https://clients.mindbodyonline.com/classic/ws?studioid=2148&stype=-7&sView=week&sLoc=0&sTrn=100001042&sDate=03/01/2026" target="_blank" class="text-green-600 hover:underline">Book</a></td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-50">
+                                <td class="py-3 px-4">March 6, 2026</td>
+                                <td class="py-3 px-4">Friday</td>
+                                <td class="py-3 px-4">8:15 AM EST</td>
+                                <td class="py-3 px-4">Power w/ Live-Music (Hot)</td>
+                                <td class="py-3 px-4">Mamaroneck</td>
+                                <td class="py-3 px-4">1 hour</td>
+                                <td class="py-3 px-4"><a href="https://clients.mindbodyonline.com/classic/ws?studioid=2148&stype=-7&sView=week&sLoc=0&sTrn=100001042&sDate=03/01/2026" target="_blank" class="text-green-600 hover:underline">Book</a></td>
+                            </tr>
+                            <tr class="border-b hover:bg-gray-50">
+                                <td class="py-3 px-4">March 8, 2026</td>
+                                <td class="py-3 px-4">Sunday</td>
+                                <td class="py-3 px-4">8:30 AM EST</td>
+                                <td class="py-3 px-4">Kaia Complete (Hot)</td>
+                                <td class="py-3 px-4">Darien</td>
+                                <td class="py-3 px-4">1 hour</td>
+                                <td class="py-3 px-4"><a href="https://clients.mindbodyonline.com/classic/ws?studioid=2148&stype=-7&sView=week&sLoc=0&sTrn=100001042&sDate=03/08/2026" target="_blank" class="text-green-600 hover:underline">Book</a></td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="py-3 px-4">March 13, 2026</td>
+                                <td class="py-3 px-4">Friday</td>
+                                <td class="py-3 px-4">8:15 AM EST</td>
+                                <td class="py-3 px-4">Power w/ Live-Music (Hot)</td>
+                                <td class="py-3 px-4">Mamaroneck</td>
+                                <td class="py-3 px-4">1 hour</td>
+                                <td class="py-3 px-4"><a href="https://clients.mindbodyonline.com/classic/ws?studioid=2148&stype=-7&sView=week&sLoc=0&sTrn=100001042&sDate=03/08/2026" target="_blank" class="text-green-600 hover:underline">Book</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="text-center text-gray-500 mt-4 text-sm">(Note: Schedule sourced from Mindbody. Contact Holly for the latest availability.)</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-16 bg-green-50 opacity-0 translate-y-10" data-animate>
+        <div class="container mx-auto px-4 md:px-6">
+            <h2 class="text-3xl font-['Playfair_Display'] font-bold text-green-800 mb-8 text-center">What Students Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 italic text-gray-700">
+                    <p>"Holly's classes have transformed my approach to wellness. Her restorative sessions are a weekly reset for my mind and body."</p>
+                    <p class="mt-2 font-semibold text-green-700">- Sarah T.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 italic text-gray-700">
+                    <p>"As a beginner, I felt welcomed and supported. Holly's guidance in Vinyasa Flow helped me build confidence quickly."</p>
+                    <p class="mt-2 font-semibold text-green-700">- Mark R.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 italic text-gray-700">
+                    <p>"Private sessions with Holly tailored to my injury recovery were a game-changer. Highly recommend her expertise!"</p>
+                    <p class="mt-2 font-semibold text-green-700">- Emily K.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-16 opacity-0 translate-y-10" data-animate>
+        <div class="container mx-auto px-4 md:px-6">
+            <h2 class="text-3xl font-['Playfair_Display'] font-bold text-green-800 mb-8 text-center">Gallery</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 max-w-5xl mx-auto masonry">
+                <div class="relative overflow-hidden rounded-lg shadow-md h-64 md:h-80">
+                    <img src="images/Holly%20Bio%20Photo.png" alt="Holly in studio" class="w-full h-full object-cover hover:scale-110 transition-transform duration-500 cursor-pointer" onerror="this.alt='Image not found'; this.src='https://via.placeholder.com/800x600?text=Holly+In+Studio';" onclick="openLightbox(this.src, this.alt)">
+                </div>
+                <div class="relative overflow-hidden rounded-lg shadow-md h-64 md:h-80">
+                    <img src="images/holly%20arm%20balance.jpg" alt="Holly arm balance" class="w-full h-full object-cover hover:scale-110 transition-transform duration-500 cursor-pointer" onerror="this.alt='Image not found'; this.src='https://via.placeholder.com/800x600?text=Holly+Arm+Balance';" onclick="openLightbox(this.src, this.alt)">
+                </div>
+                <div class="relative overflow-hidden rounded-lg shadow-md h-64 md:h-80">
+                    <img src="images/resume%20photo.jpeg" alt="Holly portrait" class="w-full h-full object-cover hover:scale-110 transition-transform duration-300 cursor-pointer" onerror="this.alt='Image not found'; this.src='https://via.placeholder.com/800x600?text=Holly+Portrait';" onclick="openLightbox(this.src, this.alt)">
+                </div>
+                <div class="relative overflow-hidden rounded-lg shadow-md h-64 md:h-80">
+                    <img src="images/holly4.jpg" alt="Yoga at sunrise" class="w-full h-full object-cover hover:scale-110 transition-transform duration-500 cursor-pointer" onerror="this.alt='Image not found'; this.src='https://via.placeholder.com/800x600?text=Yoga+At+Sunrise';" onclick="openLightbox(this.src, this.alt)">
+                </div>
+                <div class="relative overflow-hidden rounded-lg shadow-md h-64 md:h-80">
+                    <img src="images/holly5.jpg" alt="Group yoga session" class="w-full h-full object-cover hover:scale-110 transition-transform duration-500 cursor-pointer" onerror="this.alt='Image not found'; this.src='https://via.placeholder.com/800x600?text=Group+Yoga+Session';" onclick="openLightbox(this.src, this.alt)">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="bg-gray-100 py-16 opacity-0 translate-y-10" data-animate>
+        <div class="container mx-auto px-4 md:px-6 max-w-3xl">
+            <h2 class="text-3xl font-['Playfair_Display'] font-bold text-green-800 mb-6 text-center">Get in Touch</h2>
+            <p class="text-gray-600 mb-8 text-center">Have questions or want to join a class? Reach out to Holly directly.</p>
+            <form class="space-y-5">
+                <div>
+                    <label for="name" class="block text-gray-700 font-medium mb-1">Name</label>
+                    <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent" required aria-required="true">
+                </div>
+                <div>
+                    <label for="email" class="block text-gray-700 font-medium mb-1">Email</label>
+                    <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent" required aria-required="true">
+                </div>
+                <div>
+                    <label for="message" class="block text-gray-700 font-medium mb-1">Message</label>
+                    <textarea id="message" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent" required aria-required="true"></textarea>
+                </div>
+                <button type="submit" class="block mx-auto px-6 py-3 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 hover:scale-105 transition-all duration-300 font-['Lato']">Send Message</button>
+            </form>
+            <p class="text-center text-gray-500 mt-4">(Note: Form is static for now; email integration can be added upon request.)</p>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-green-800 text-white py-8" style="background: linear-gradient(to bottom, #2d3748, #1a202c);">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2026 Holly's Yoga Journey | Westport, CT</p>
+            <p class="mt-2">Contact: holly@yogajourney.com | (555) 123-4567</p>
+        </div>
+    </footer>
+    
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="fixed bottom-5 right-5 bg-green-600 text-white rounded-full p-3 opacity-0 invisible hover:bg-green-700 transition-all duration-300" aria-label="Back to top">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path></svg>
+    </button>
+    
+    <!-- Lightbox Modal (Hidden by Default) -->
+    <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50 hidden">
+        <img id="lightbox-img" src="" alt="" class="max-w-full max-h-full">
+        <button id="close-lightbox" class="absolute top-2 right-5 text-white text-3xl" aria-label="Close image view">&times;</button>
+    </div>
+    
+    <script>
+        // Existing script from script.js (if any) plus schedule toggle functionality
+        function toggleDescription(id) {
+            const descElement = document.getElementById(id);
+            if (descElement.classList.contains('hidden')) {
+                descElement.classList.remove('hidden');
+            } else {
+                descElement.classList.add('hidden');
+            }
+        }
+        // Existing lightbox and other functionalities remain as is
+        function openLightbox(src, alt) {
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+            lightboxImg.src = src;
+            lightboxImg.alt = alt;
+            lightbox.classList.remove('hidden');
+        }
+        document.getElementById('close-lightbox').addEventListener('click', function() {
+            document.getElementById('lightbox').classList.add('hidden');
+        });
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            if (mobileMenu.classList.contains('hidden')) {
+                mobileMenu.classList.remove('hidden');
+            } else {
+                mobileMenu.classList.add('hidden');
+            }
+        });
+        // Back to top button visibility
+        window.addEventListener('scroll', function() {
+            const backToTop = document.getElementById('back-to-top');
+            if (window.scrollY > 300) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+        document.getElementById('back-to-top').addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+        // Animation on scroll
+        document.addEventListener('DOMContentLoaded', function() {
+            const elements = document.querySelectorAll('[data-animate]');
+            const options = {
+                rootMargin: '0px',
+                threshold: 0.2
+            };
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, options);
+            elements.forEach(el => observer.observe(el));
+        });
+    </script>
+</body>
+</html>
