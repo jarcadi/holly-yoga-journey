@@ -304,64 +304,59 @@
     </div>
     
     <script>
-        // Existing script from script.js (if any) plus schedule toggle functionality
-        function toggleDescription(id) {
-            const descElement = document.getElementById(id);
-            if (descElement.classList.contains('hidden')) {
-                descElement.classList.remove('hidden');
-            } else {
-                descElement.classList.add('hidden');
-            }
+    // Existing script from script.js (if any) plus schedule toggle functionality
+    function toggleDescription(id) {
+        var desc = document.getElementById(id);
+        if (desc.classList.contains('hidden')) {
+            desc.classList.remove('hidden');
+        } else {
+            desc.classList.add('hidden');
         }
-        // Existing lightbox and other functionalities remain as is
-        function openLightbox(src, alt) {
-            const lightbox = document.getElementById('lightbox');
-            const lightboxImg = document.getElementById('lightbox-img');
-            lightboxImg.src = src;
-            lightboxImg.alt = alt;
-            lightbox.classList.remove('hidden');
+    }
+
+    // Lightbox functionality
+    var lightbox = document.getElementById('lightbox');
+    var lightboxImg = document.getElementById('lightbox-img');
+    var closeLightbox = document.getElementById('close-lightbox');
+
+    function openLightbox(src, alt) {
+        lightbox.style.display = 'flex';
+        lightboxImg.src = src;
+        lightboxImg.alt = alt;
+    }
+
+    closeLightbox.onclick = function() {
+        lightbox.style.display = 'none';
+    };
+
+    lightbox.onclick = function(event) {
+        if (event.target === lightbox) {
+            lightbox.style.display = 'none';
         }
-        document.getElementById('close-lightbox').addEventListener('click', function() {
-            document.getElementById('lightbox').classList.add('hidden');
-        });
-        // Mobile menu toggle
-        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
-            const mobileMenu = document.getElementById('mobile-menu');
-            if (mobileMenu.classList.contains('hidden')) {
-                mobileMenu.classList.remove('hidden');
-            } else {
-                mobileMenu.classList.add('hidden');
+    };
+
+    // Mobile menu functionality
+    document.addEventListener('DOMContentLoaded', function() {
+        var menuButton = document.getElementById('mobile-menu-btn');
+        var mobileMenu = document.getElementById('mobile-menu');
+        if (menuButton && mobileMenu) {
+            menuButton.addEventListener('click', function() {
+                if (mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.remove('hidden');
+                } else {
+                    mobileMenu.classList.add('hidden');
+                }
+            });
+        }
+
+        // Log to console if page load is stuck (for debugging)
+        setTimeout(function() {
+            if (document.readyState !== 'complete') {
+                console.log('Page load seems stuck. Check for slow resources or JS errors.');
             }
-        });
-        // Back to top button visibility
-        window.addEventListener('scroll', function() {
-            const backToTop = document.getElementById('back-to-top');
-            if (window.scrollY > 300) {
-                backToTop.classList.add('visible');
-            } else {
-                backToTop.classList.remove('visible');
-            }
-        });
-        document.getElementById('back-to-top').addEventListener('click', function() {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-        // Animation on scroll
-        document.addEventListener('DOMContentLoaded', function() {
-            const elements = document.querySelectorAll('[data-animate]');
-            const options = {
-                rootMargin: '0px',
-                threshold: 0.2
-            };
-            const observer = new IntersectionObserver((entries, observer) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('animate');
-                        observer.unobserve(entry.target);
-                    }
-                });
-            }, options);
-            elements.forEach(el => observer.observe(el));
-        });
-    </script>
+        }, 10000); // Check after 10 seconds
+    });
+</script>
+
 </body>
 </html>
