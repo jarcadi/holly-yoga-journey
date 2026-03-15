@@ -10,10 +10,10 @@ if git status --porcelain | grep .; then
     git add .
     git commit -m "Automated update: $(date +%Y-%m-%d) - Schedule and content refresh"
     
-    # Read GitHub token from file (ensure it's set)
+    # Read GitHub token from file
     if [ -f "/home/jarcadi/.openclaw/workspace/github-token.txt" ]; then
         GITHUB_TOKEN=$(cat /home/jarcadi/.openclaw/workspace/github-token.txt)
-        git push https://$GITHUB_TOKEN@github.com/yourusername/holly-yoga-journey.git main
+        git push https://$GITHUB_TOKEN@github.com/jarcadi/holly-yoga-journey.git main
         echo "Pushed updates to GitHub"
     else
         echo "GitHub token not found. Please set up token at /home/jarcadi/.openclaw/workspace/github-token.txt"
