@@ -441,3 +441,8 @@ Starting server in /home/jarcadi/.openclaw/workspace/yoga-site on port 8899 at S
 127.0.0.1 - - [15/Mar/2026 11:44:02] "GET /images/holly5.jpg HTTP/1.1" 404 -
 127.0.0.1 - - [15/Mar/2026 11:44:05] code 404, message File not found
 127.0.0.1 - - [15/Mar/2026 11:44:05] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 11:54:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2026 11:54:21] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 11:54:21] "GET /images/holly4.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [15/Mar/2026 11:54:21] code 404, message File not found
+127.0.0.1 - - [15/Mar/2026 11:54:21] "GET /images/holly5.jpg HTTP/1.1" 404 -
