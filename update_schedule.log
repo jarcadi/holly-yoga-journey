@@ -68,3 +68,8 @@
 [Sun Mar 29 02:00:24 AM EDT 2026] Would fetch screenshot for following week at https://clients.mindbodyonline.com/classic/mainclass?studioid=2148&stype=-7&view=week&trn=100001042&date=04/06/2026 to /home/jarcadi/.openclaw/media/browser/following_week_2026-03-29_02-00-24.png
 [Sun Mar 29 02:00:24 AM EDT 2026] Updating last modified timestamp in index.html
 [Sun Mar 29 02:00:24 AM EDT 2026] Schedule, ICS, and timestamp update process initiated
+[Mon Mar 30 02:00:10 AM EDT 2026] Starting schedule update for March 31-6, %Y and April 7-13, %Y
+[Mon Mar 30 02:00:10 AM EDT 2026] Would fetch screenshot for next week at https://clients.mindbodyonline.com/classic/mainclass?studioid=2148&stype=-7&view=week&trn=100001042&date=03/31/2026 to /home/jarcadi/.openclaw/media/browser/next_week_2026-03-30_02-00-10.png
+[Mon Mar 30 02:00:10 AM EDT 2026] Would fetch screenshot for following week at https://clients.mindbodyonline.com/classic/mainclass?studioid=2148&stype=-7&view=week&trn=100001042&date=04/07/2026 to /home/jarcadi/.openclaw/media/browser/following_week_2026-03-30_02-00-10.png
+[Mon Mar 30 02:00:10 AM EDT 2026] Updating last modified timestamp in index.html
+[Mon Mar 30 02:00:10 AM EDT 2026] Schedule, ICS, and timestamp update process initiated
