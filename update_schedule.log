@@ -93,3 +93,13 @@
 [Sat Apr  4 02:00:03 AM EDT 2026] Would fetch screenshot for following week at https://clients.mindbodyonline.com/classic/mainclass?studioid=2148&stype=-7&view=week&trn=100001042&date=04/12/2026 to /home/jarcadi/.openclaw/media/browser/following_week_2026-04-04_02-00-03.png
 [Sat Apr  4 02:00:03 AM EDT 2026] Updating last modified timestamp in index.html
 [Sat Apr  4 02:00:03 AM EDT 2026] Schedule, ICS, and timestamp update process initiated
+[Sun Apr  5 02:00:03 AM EDT 2026] Starting schedule update for April 6-12, %Y and April 13-19, %Y
+[Sun Apr  5 02:00:03 AM EDT 2026] Would fetch screenshot for next week at https://clients.mindbodyonline.com/classic/mainclass?studioid=2148&stype=-7&view=week&trn=100001042&date=04/06/2026 to /home/jarcadi/.openclaw/media/browser/next_week_2026-04-05_02-00-03.png
+[Sun Apr  5 02:00:03 AM EDT 2026] Would fetch screenshot for following week at https://clients.mindbodyonline.com/classic/mainclass?studioid=2148&stype=-7&view=week&trn=100001042&date=04/13/2026 to /home/jarcadi/.openclaw/media/browser/following_week_2026-04-05_02-00-03.png
+[Sun Apr  5 02:00:03 AM EDT 2026] Updating last modified timestamp in index.html
+[Sun Apr  5 02:00:03 AM EDT 2026] Schedule, ICS, and timestamp update process initiated
+[Mon Apr  6 02:00:02 AM EDT 2026] Starting schedule update for April 7-13, %Y and April 14-20, %Y
+[Mon Apr  6 02:00:02 AM EDT 2026] Would fetch screenshot for next week at https://clients.mindbodyonline.com/classic/mainclass?studioid=2148&stype=-7&view=week&trn=100001042&date=04/07/2026 to /home/jarcadi/.openclaw/media/browser/next_week_2026-04-06_02-00-02.png
+[Mon Apr  6 02:00:02 AM EDT 2026] Would fetch screenshot for following week at https://clients.mindbodyonline.com/classic/mainclass?studioid=2148&stype=-7&view=week&trn=100001042&date=04/14/2026 to /home/jarcadi/.openclaw/media/browser/following_week_2026-04-06_02-00-02.png
+[Mon Apr  6 02:00:02 AM EDT 2026] Updating last modified timestamp in index.html
+[Mon Apr  6 02:00:02 AM EDT 2026] Schedule, ICS, and timestamp update process initiated
