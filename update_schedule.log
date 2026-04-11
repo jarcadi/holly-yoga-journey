@@ -113,3 +113,13 @@
 [Wed Apr  8 02:00:03 AM EDT 2026] Would fetch screenshot for following week at https://clients.mindbodyonline.com/classic/mainclass?studioid=2148&stype=-7&view=week&trn=100001042&date=04/16/2026 to /home/jarcadi/.openclaw/media/browser/following_week_2026-04-08_02-00-03.png
 [Wed Apr  8 02:00:03 AM EDT 2026] Updating last modified timestamp in index.html
 [Wed Apr  8 02:00:03 AM EDT 2026] Schedule, ICS, and timestamp update process initiated
+[Thu Apr  9 02:00:04 AM EDT 2026] Starting schedule update for April 10-16, %Y and April 17-23, %Y
+[Thu Apr  9 02:00:04 AM EDT 2026] Would fetch screenshot for next week at https://clients.mindbodyonline.com/classic/mainclass?studioid=2148&stype=-7&view=week&trn=100001042&date=04/10/2026 to /home/jarcadi/.openclaw/media/browser/next_week_2026-04-09_02-00-04.png
+[Thu Apr  9 02:00:04 AM EDT 2026] Would fetch screenshot for following week at https://clients.mindbodyonline.com/classic/mainclass?studioid=2148&stype=-7&view=week&trn=100001042&date=04/17/2026 to /home/jarcadi/.openclaw/media/browser/following_week_2026-04-09_02-00-04.png
+[Thu Apr  9 02:00:04 AM EDT 2026] Updating last modified timestamp in index.html
+[Thu Apr  9 02:00:04 AM EDT 2026] Schedule, ICS, and timestamp update process initiated
+[Fri Apr 10 02:00:03 AM EDT 2026] Starting schedule update for April 11-17, %Y and April 18-24, %Y
+[Fri Apr 10 02:00:03 AM EDT 2026] Would fetch screenshot for next week at https://clients.mindbodyonline.com/classic/mainclass?studioid=2148&stype=-7&view=week&trn=100001042&date=04/11/2026 to /home/jarcadi/.openclaw/media/browser/next_week_2026-04-10_02-00-03.png
+[Fri Apr 10 02:00:03 AM EDT 2026] Would fetch screenshot for following week at https://clients.mindbodyonline.com/classic/mainclass?studioid=2148&stype=-7&view=week&trn=100001042&date=04/18/2026 to /home/jarcadi/.openclaw/media/browser/following_week_2026-04-10_02-00-03.png
+[Fri Apr 10 02:00:03 AM EDT 2026] Updating last modified timestamp in index.html
+[Fri Apr 10 02:00:03 AM EDT 2026] Schedule, ICS, and timestamp update process initiated
